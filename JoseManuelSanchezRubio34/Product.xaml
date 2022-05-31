@@ -1,0 +1,24 @@
+﻿<Window x:Class="JoseManuelSanchezRubio34.Product"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoseManuelSanchezRubio34"
+        mc:Ignorable="d"
+        Title="Product" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="123,104,0,0" VerticalAlignment="Top"/>
+        <Label Content="Descripcion:" HorizontalAlignment="Left" Margin="123,135,0,0" VerticalAlignment="Top"/>
+        <Label Content="Categoria:" HorizontalAlignment="Left" Margin="123,160,0,0" VerticalAlignment="Top"/>
+        <Label Content="Precio:" HorizontalAlignment="Left" Margin="123,191,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblNombre" Content="_" HorizontalAlignment="Left" Margin="208,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDescripcion" Content="_" HorizontalAlignment="Left" Margin="208,135,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblCategoria" Content="_" HorizontalAlignment="Left" Margin="208,161,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPrecio" Content="_" HorizontalAlignment="Left" Margin="208,191,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAñadir" Content="Añadir" HorizontalAlignment="Left" Margin="547,148,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="364,235,0,0" VerticalAlignment="Top" Click="btnCancelarClick"/>
+        <Button x:Name="btnOtroProducto" Content="Otro producto" HorizontalAlignment="Left" Margin="465,235,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnFinalizar" Content="Finalizar" HorizontalAlignment="Left" Margin="593,235,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

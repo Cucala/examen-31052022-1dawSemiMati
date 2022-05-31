@@ -1,0 +1,25 @@
+﻿<Window x:Class="JoseManuelSanchezRubio34.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoseManuelSanchezRubio34"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.288,0.495">
+        <Label Content="comprador" HorizontalAlignment="Left" Margin="552,69,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtComprador" HorizontalAlignment="Left" Margin="636,73,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="lista de productos" HorizontalAlignment="Left" Margin="552,116,0,0" VerticalAlignment="Top" Width="107"/>
+        <ListBox x:Name="listProductos" Margin="562,147,44,150">
+            <ListBoxItem>ListBox Item #1</ListBoxItem>
+            <ListBoxItem>ListBox Item #2</ListBoxItem>
+            <ListBoxItem>ListBox Item #3</ListBoxItem>
+        </ListBox>
+        <Button x:Name="btnAñadirProducto" Content="Añadir producto" HorizontalAlignment="Left" Margin="562,358,0,0" VerticalAlignment="Top" Click="btnAñadirProductoClick"/>
+        <Button x:Name="btnAñadirACarrito" Content="Añadir al carrito" HorizontalAlignment="Left" Margin="668,358,0,0" VerticalAlignment="Top" Click="btnAñadirACarritoClick"/>
+        <Image HorizontalAlignment="Left" Height="286" Margin="78,69,0,0" VerticalAlignment="Top" Width="349" Source="/tienda.jpg"/>
+        <Label Content="Total" HorizontalAlignment="Left" Margin="562,306,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTotal" Content="0" HorizontalAlignment="Left" Margin="624,306,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
