@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:JoseManuelSanchezRubio34"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid RenderTransformOrigin="0.288,0.495">
         <Label Content="comprador" HorizontalAlignment="Left" Margin="552,69,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtComprador" HorizontalAlignment="Left" Margin="636,73,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <Label Content="lista de productos" HorizontalAlignment="Left" Margin="552,116,0,0" VerticalAlignment="Top" Width="107"/>
