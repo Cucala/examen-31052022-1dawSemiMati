@@ -7,5 +7,20 @@ namespace JaimeMartinezMartinez34
             InitializeComponent();
         }
 
-      }
+        public class Customer {
+       
+        }
+
+        public class price {
+        }
+        private void buttonProductos_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void bttnCompra_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
     }

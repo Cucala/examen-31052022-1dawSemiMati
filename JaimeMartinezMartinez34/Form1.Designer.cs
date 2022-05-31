@@ -74,6 +74,7 @@
             this.buttonProductos.TabIndex = 3;
             this.buttonProductos.Text = "Añadir Productos";
             this.buttonProductos.UseVisualStyleBackColor = true;
+            this.buttonProductos.Click += new System.EventHandler(this.buttonProductos_Click);
             // 
             // bttnCompra
             // 
@@ -83,6 +84,7 @@
             this.bttnCompra.TabIndex = 4;
             this.bttnCompra.Text = "Añadir lista de la compra";
             this.bttnCompra.UseVisualStyleBackColor = true;
+            this.bttnCompra.Click += new System.EventHandler(this.bttnCompra_Click);
             // 
             // listBox1
             // 

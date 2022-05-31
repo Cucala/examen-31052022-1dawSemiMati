@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaime\\source\\repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj": {}
+    "C:\\Users\\jaime\\Source\\Repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaime\\source\\repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj": {
+    "C:\\Users\\jaime\\Source\\Repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaime\\source\\repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj",
+        "projectUniqueName": "C:\\Users\\jaime\\Source\\Repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj",
         "projectName": "JaimeMartinezMartinez34",
-        "projectPath": "C:\\Users\\jaime\\source\\repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj",
+        "projectPath": "C:\\Users\\jaime\\Source\\Repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\JaimeMartinezMartinez34.csproj",
         "packagesPath": "C:\\Users\\jaime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaime\\source\\repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\obj\\",
+        "outputPath": "C:\\Users\\jaime\\Source\\Repos\\byjamesmars\\examen-31052022-1dawSemiMati\\JaimeMartinezMartinez34\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaime\\AppData\\Roaming\\NuGet\\NuGet.Config",

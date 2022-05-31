@@ -21,5 +21,23 @@ namespace JaimeMartinezMartinez34
         {
 
         }
+        public class product
+        {
+            public string Nombre { get; set; }
+            public string ProductName { get; set; }
+        }
+        private void bttnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bttnCancelar_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void lblNombreProd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -67,6 +67,7 @@
             this.lblNombreProd.Size = new System.Drawing.Size(67, 20);
             this.lblNombreProd.TabIndex = 0;
             this.lblNombreProd.Text = "Nombre:";
+            this.lblNombreProd.Click += new System.EventHandler(this.lblNombreProd_Click);
             // 
             // lblDescrProd
             // 
@@ -131,6 +132,7 @@
             this.bttnGuardar.TabIndex = 8;
             this.bttnGuardar.Text = "Guardar";
             this.bttnGuardar.UseVisualStyleBackColor = true;
+            this.bttnGuardar.Click += new System.EventHandler(this.bttnGuardar_Click);
             // 
             // bttnCancelar
             // 
@@ -140,6 +142,7 @@
             this.bttnCancelar.TabIndex = 9;
             this.bttnCancelar.Text = "Cancelar";
             this.bttnCancelar.UseVisualStyleBackColor = true;
+            this.bttnCancelar.Click += new System.EventHandler(this.bttnCancelar_Click);
             // 
             // label3
             // 
