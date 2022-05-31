@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="comprador" HorizontalAlignment="Left" Margin="552,69,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtComprador" HorizontalAlignment="Left" Margin="636,73,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="lista de productos" HorizontalAlignment="Left" Margin="552,116,0,0" VerticalAlignment="Top" Width="107"/>
+        <ListBox x:Name="listProductos" Margin="562,147,44,96"/>
+        <Button x:Name="btnAñadirProducto" Content="Añadir producto" HorizontalAlignment="Left" Margin="562,358,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAñadirACarrito" Content="Añadir al carrito" HorizontalAlignment="Left" Margin="668,358,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="286" Margin="78,69,0,0" VerticalAlignment="Top" Width="349" Source="/tienda.jpg"/>
 
     </Grid>
 </Window>
