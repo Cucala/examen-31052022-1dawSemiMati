@@ -24,20 +24,12 @@ namespace JoseManuelSanchezRubio34
             InitializeComponent();
         }
 
-        public Producto value;
-       
-
-
+        public Producto Value { get; set; }
 
         private void btnGuardarClick(object sender, RoutedEventArgs e)
         {
-
-            value = new Producto(txtNombre.Text, txtDescripcion.Text, txtCategoria.Text, Convert.ToInt32(txtPrecio.Text));
+            Value = new Producto(txtNombre.Text, txtDescripcion.Text, txtCategoria.Text, Convert.ToInt32(txtPrecio.Text));
             DialogResult = true;
-
-            MainWindow mw=new MainWindow();
-            mw.listProductos.Items.Add(value);
-            //mw.products.Add(value);
         }
 
         private void btnCancelarClick(object sender, RoutedEventArgs e)

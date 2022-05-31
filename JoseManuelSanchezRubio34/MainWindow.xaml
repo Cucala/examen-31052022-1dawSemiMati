@@ -16,7 +16,7 @@
             <ListBoxItem>ListBox Item #3</ListBoxItem>
         </ListBox>
         <Button x:Name="btnAñadirProducto" Content="Añadir producto" HorizontalAlignment="Left" Margin="562,358,0,0" VerticalAlignment="Top" Click="btnAñadirProductoClick"/>
-        <Button x:Name="btnAñadirACarrito" Content="Añadir al carrito" HorizontalAlignment="Left" Margin="668,358,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAñadirACarrito" Content="Añadir al carrito" HorizontalAlignment="Left" Margin="668,358,0,0" VerticalAlignment="Top" Click="btnAñadirACarritoClick"/>
         <Image HorizontalAlignment="Left" Height="286" Margin="78,69,0,0" VerticalAlignment="Top" Width="349" Source="/tienda.jpg"/>
         <Label Content="Total" HorizontalAlignment="Left" Margin="562,306,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblTotal" Content="0" HorizontalAlignment="Left" Margin="624,306,0,0" VerticalAlignment="Top"/>

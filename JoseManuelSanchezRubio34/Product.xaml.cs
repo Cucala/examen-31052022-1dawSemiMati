@@ -23,7 +23,7 @@ namespace JoseManuelSanchezRubio34
         {
             InitializeComponent();
         }
-
+        public Producto Value { get; set; }
         private void btnCancelarClick(object sender, RoutedEventArgs e)
         {
             this.Close();

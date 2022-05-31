@@ -24,22 +24,37 @@ namespace JoseManuelSanchezRubio34
         {
             InitializeComponent();
             listProductos.ItemsSource = products;
+            products = new List<Producto>();
         }
 
         public List<Producto> products { get; set; }
 
         private void btnAñadirProductoClick(object sender, RoutedEventArgs e)
         {
-            var dialogAddNameItem = new AddProduct()
+            var viewAddProduct = new AddProduct()
             {
                 Owner = this
             };
 
-            if (dialogAddNameItem.ShowDialog() == true)
+            if (viewAddProduct.ShowDialog() == true)
             {
-                //listProductos.Items.Add(dialogAddNameItem.Value);
+                products.Add(viewAddProduct.Value);
             }
+            viewAddProduct.Close();
+        }
 
+        private void btnAñadirACarritoClick(object sender, RoutedEventArgs e)
+        {
+            var viewProduct = new Product()
+            {
+                Owner = this
+            };
+
+            if (viewProduct.ShowDialog() == true)
+            {
+                products.Add(viewProduct.Value);
+            }
+            viewProduct.Close();
         }
     }
 }
