@@ -6,5 +6,6 @@ namespace JaimeMartinezMartinez34
         {
             InitializeComponent();
         }
+
+      }
     }
-}
