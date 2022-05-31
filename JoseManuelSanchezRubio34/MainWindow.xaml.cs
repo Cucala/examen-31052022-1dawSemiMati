@@ -23,10 +23,22 @@ namespace JoseManuelSanchezRubio34
         public MainWindow()
         {
             InitializeComponent();
+            listProductos.ItemsSource = products;
         }
+
+        public List<Producto> products { get; set; }
 
         private void btnAñadirProductoClick(object sender, RoutedEventArgs e)
         {
+            var dialogAddNameItem = new AddProduct()
+            {
+                Owner = this
+            };
+
+            if (dialogAddNameItem.ShowDialog() == true)
+            {
+                //listProductos.Items.Add(dialogAddNameItem.Value);
+            }
 
         }
     }

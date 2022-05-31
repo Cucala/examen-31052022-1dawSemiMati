@@ -16,7 +16,7 @@
         <Label x:Name="lblCategoria" Content="_" HorizontalAlignment="Left" Margin="208,161,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblPrecio" Content="_" HorizontalAlignment="Left" Margin="208,191,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnAñadir" Content="Añadir" HorizontalAlignment="Left" Margin="547,148,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="364,235,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="364,235,0,0" VerticalAlignment="Top" Click="btnCancelarClick"/>
         <Button x:Name="btnOtroProducto" Content="Otro producto" HorizontalAlignment="Left" Margin="465,235,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnFinalizar" Content="Finalizar" HorizontalAlignment="Left" Margin="593,235,0,0" VerticalAlignment="Top"/>
 

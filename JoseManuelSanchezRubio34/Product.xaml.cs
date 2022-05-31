@@ -23,5 +23,10 @@ namespace JoseManuelSanchezRubio34
         {
             InitializeComponent();
         }
+
+        private void btnCancelarClick(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

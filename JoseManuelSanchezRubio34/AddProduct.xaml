@@ -15,8 +15,8 @@
         <TextBox x:Name="txtDescripcion" HorizontalAlignment="Left" Margin="241,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtCategoria" HorizontalAlignment="Left" Margin="241,166,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPrecio" HorizontalAlignment="Left" Margin="241,212,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="508,127,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="508,175,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="508,127,0,0" VerticalAlignment="Top" Click="btnCancelarClick"/>
+        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="508,175,0,0" VerticalAlignment="Top" Click="btnGuardarClick"/>
 
     </Grid>
 </Window>

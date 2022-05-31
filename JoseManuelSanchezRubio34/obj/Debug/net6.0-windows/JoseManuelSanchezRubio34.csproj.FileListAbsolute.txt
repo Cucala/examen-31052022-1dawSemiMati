@@ -19,3 +19,7 @@ C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiM
 C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiMati\JoseManuelSanchezRubio34\obj\Debug\net6.0-windows\JoseManuelSanchezRubio34.pdb
 C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiMati\JoseManuelSanchezRubio34\obj\Debug\net6.0-windows\JoseManuelSanchezRubio34.genruntimeconfig.cache
 C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiMati\JoseManuelSanchezRubio34\obj\Debug\net6.0-windows\ref\JoseManuelSanchezRubio34.dll
+C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiMati\JoseManuelSanchezRubio34\obj\Debug\net6.0-windows\AddProduct.g.cs
+C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiMati\JoseManuelSanchezRubio34\obj\Debug\net6.0-windows\Product.g.cs
+C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiMati\JoseManuelSanchezRubio34\obj\Debug\net6.0-windows\AddProduct.baml
+C:\Users\Estudiant\source\repos\JoseManuelSanchezRubio\examen-31052022-1dawSemiMati\JoseManuelSanchezRubio34\obj\Debug\net6.0-windows\Product.baml
