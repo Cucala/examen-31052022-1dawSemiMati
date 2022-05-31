@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace JaimeMartinezMartinez34
 {
-    internal class addProduct
+    internal class ProductModel
     {
-        internal class ProductModel
+        public class Producto
         {
-            protected string Nombre;
-            protected string Descripcion;
+            private string Nombre;
+            private string Descripcion;
             private string Categoria;
             private int Precio;
 
